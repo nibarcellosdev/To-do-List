@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(49, 1, 121, 0.6);
+}
+
+.bg {
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 3px solid rgba(49, 1, 121, 0.6);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: all 0.5s ease;
+  background: rgba(49, 1, 121, 0.2);
+}
+
+.empty-list {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  letter-spacing: 0.05em;
+  line-height: 1em;
+  font-weight: bold;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 10px 0;
+  line-height: 1em;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+.container > p:nth-child(2) {
+  color: rgba(62, 246, 255, 1); 
+}
+
+.container > p:nth-child(3) {
+  color: rgba(255, 255, 204, 1);
+}
+
+.container > p:nth-child(4) {
+color: rgba(121, 207, 37, 1);
+}
+
+
+.containerInput input {
+  padding-left: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  width: 700px;
+}
+
+.containerInput {
+  display: flex;
+  margin-top: 20px;
+}
+.containerInput button {
+  margin-left: 10px;
+}
+
+.containerInput button i {
+  padding: 10px 15px;
+}
+
+.containerInput button {
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+li:hover {
+  background: rgba(49, 1, 121, 0.4);
+}
+
+.done {
+  background: #b3ffb3 !important;
+  color: black;
+}
+
+.delete {
+  display: none;
+}
+
+li > button {
+  background: none;
+  border: 0;
+  font-weight: bold;
+  float: right;
+}
+
